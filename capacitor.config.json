@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "BJJ no gi",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
