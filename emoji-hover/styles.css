@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.emoji {
+  font-size: 50rem;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: cubic-bezier(0.075, 0.082, 0.0165, 1) 10s;
+}
+
+.closed {
+  display: none;
+}
+
+.open {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.hover {
+  transform: scale(2);
+}
